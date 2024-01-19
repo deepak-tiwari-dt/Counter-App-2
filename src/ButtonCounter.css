@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blueviolet;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.title {
+  color: rgb(149, 215, 50);
+  font-size: 5em;
+  font-weight: 900;
+}
+
+.counter {
+  color: white;
+  font-size: 4em;
+  font-weight: 500;
+}
+
+button {
+  width: 10em;
+  height: 5em;
+  border-radius: 20px;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: gray;
+  color: white;
+}
